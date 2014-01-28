@@ -25,7 +25,7 @@
     // +8.75  Australia (UTC+08:45)
     // +5.5   India (UTC+05:30)
     // +1     Germany (UTC+01:00)
-    // 0      United Kingdom (UTC±0)
+    // 0      United Kingdom (UTCï¿½0)
     // -2     Brazil (UTC-02:00)
     // -4.5   Venezuela (UTC-04:30)
     // -6     United States (Central Time) (UTC-06:00)
@@ -88,7 +88,7 @@
 
     // 13.
     // Your Email address. Will be used in contact forms.
-    define( 'K_EMAIL_TO', 'youremail@gmail.com' );
+    define( 'K_EMAIL_TO', 'ben.chrisman.87@gmail.com' );
 
     // 14.
     // Will be used as the sender of messages delivered by contact forms to the address above.
