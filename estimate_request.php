@@ -1,11 +1,6 @@
 <?php
 
-require 'vendor/autoload.php';
-
-use \Dropbox as dbx;
-
-$appInfo = dbx\AppInfo::loadFromJsonFile("data/dropbox.json");
-
+require_once( 'php/process_form.php');
 
 require_once( 'couch/cms.php' );
 
@@ -17,12 +12,10 @@ $title = "Exterior Signs"; ?>
 
 <div class="item-page">
 
-	<h2>
-Estimate Request Form		</h2>
-
+<h2>Estimate Request Form</h2>
 
 <p>Please complete the form below...</p>
-<p><?php echo "HELLO?" ?></p>
+
 </div>
 
 
@@ -33,7 +26,7 @@ Estimate Request Form		</h2>
 <h2>Contact us</h2>
 
 
-<form enctype="multipart/form-data" class="foxform" action="/index.php/estimate-request#mid_110" method="post">
+<form enctype="multipart/form-data" class="foxform" action="" method="post">
 	<!-- mod_foxcontact 2.0.17 GNU/GPLv3 -->
 	<div style="clear:both;">Please complete the form below for an Estimate Request.<br /></div>
 <div style="clear:both;"><label style="float:left;width:230px !important;">This Is An</label><div style="width:85%;float:left;position:relative;margin-right: 12px !important;" ><select class="fox_dropdown foxtext" name="_41d1c500625952f6c64f72118d7accc9" style="width:100% !important;" onchange="DropdownAlignValue(this)" ><option value=""></option><option value="Estimate Request">Estimate Request</option><option value="Order Request">Order Request</option></select><span class="outer_dropdown defaultfoxfield" ><span class="inner_dropdown" style="background-image:url(/media/com_foxcontact/images/dropdown-arrow-right.png);background-position:right 0;" id="ddi_41d1c500625952f6c64f72118d7accc9" ></span></span></div>
@@ -60,15 +53,14 @@ Estimate Request Form		</h2>
 <div style="clear:both;"><div id="foxupload_mid_110" ></div>
 <script language="javascript" type="text/javascript">createUploader('foxupload_mid_110', 0, 110);</script><noscript><input type="file" name="foxstdupload" /></noscript></div>
 <div style="clear:both;">
-<button class="foxbutton" type="submit" style="margin-right:32px;" name="mid_110">
-<span >
-Submit Form</span>
-</button>
+<input style="display:none" type="text" name="dest" value="shared" />
+<div style="clear:both;">
+    <input type="file" name="file" /><br><br>
+    <input type="submit" value="Upload the file to my Dropbox!" />
 </div>
 </form>
 
 </div>
-
 
 <?php require_once('inc/footer.php'); ?>
 
