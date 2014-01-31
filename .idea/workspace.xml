@@ -1,7 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6cafe1c4-97d6-4b2a-865d-827b4ebd8c98" name="Default" comment="" />
+    <list default="true" id="c9746537-7307-4381-84f8-9f1083f7f578" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/test/upload.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/AppInfo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/AppInfoLoadException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/ArrayEntryStore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/AuthBase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/AuthInfo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/AuthInfoLoadException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/Exception/BadRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/WebAuthException/BadRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/Exception/BadResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/Exception/BadResponseCode.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/WebAuthException/BadState.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/ChangeLog.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/Checker.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/Client.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/test/ClientTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/test/ConfigLoadTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/WebAuthException/Csrf.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/Curl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/CurlStreamRelay.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/DeserializeException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/DropboxMetadataHeaderCatcher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DropboxUploader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/Host.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/HttpResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/Exception/InvalidAccessToken.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/License.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/Exception/NetworkIO.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/WebAuthException/NotApproved.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/OAuth1AccessToken.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/OAuth1Upgrader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/Path.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/Exception/ProtocolError.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/WebAuthException/Provider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/RequestUtil.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/Exception/RetryLater.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/SSLTester.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/Security.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/Exception/ServerError.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/StreamReadException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/test/ValidationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/ValueStore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/WebAuth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/WebAuthBase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/WebAuthNoRedirect.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/WriteMode.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/examples/account-info.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/examples/authorize.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/composer.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/examples/create-shareable-link.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/examples/delta.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/examples/direct-link.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/examples/download-file.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/dropbox.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dropbox.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/dropbox.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/fix-style" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/support/generate-api-docs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/examples/get-metadata.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/examples/helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/examples/link.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/strict.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/examples/test-ssl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/certs/trusted-certs.crt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/examples/upgrade-oauth1-token.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/examples/upload-file.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/examples/web-file-browser.php" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\contact.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vital.iml" afterPath="$PROJECT_DIR$/.idea/vital.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact_us.php" afterPath="$PROJECT_DIR$/contact_us.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/estimate_request.php" afterPath="$PROJECT_DIR$/estimate_request.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/header.php" afterPath="$PROJECT_DIR$/inc/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="vital.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,169 +110,15 @@
   <component name="FavoritesManager">
     <favorites_list name="vital" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="contact_us.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contact_us.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="29" selection-start="1134" selection-end="1134" vertical-scroll-proportion="-5.3076925" vertical-offset="236" max-vertical-offset="1428">
-              <folding>
-                <element signature="e#339#366#0" expanded="true" />
-                <element signature="e#373#413#0" expanded="true" />
-                <element signature="e#447#471#0" expanded="true" />
-                <element signature="e#544#568#0" expanded="true" />
-                <element signature="e#639#663#0" expanded="true" />
-                <element signature="e#1492#1513#0" expanded="true" />
-                <element signature="e#1899#1920#0" expanded="true" />
-                <element signature="e#2306#2327#0" expanded="true" />
-                <element signature="e#2743#2764#0" expanded="true" />
-                <element signature="e#2957#2978#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/contact.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="24" selection-start="985" selection-end="985" vertical-scroll-proportion="0.5641593" vertical-offset="0" max-vertical-offset="3434">
-              <folding>
-                <marker date="1390868656885" expanded="true" signature="1186:1378" placeholder="..." />
-                <marker date="1390868656885" expanded="true" signature="1191:1204" placeholder="/*...*/" />
-                <marker date="1390868656885" expanded="true" signature="1245:1290" placeholder="/*...*/" />
-                <marker date="1390868656885" expanded="true" signature="1294:1330" placeholder="/*...*/" />
-                <marker date="1390868656885" expanded="true" signature="1334:1368" placeholder="/*...*/" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="estimate_request.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/estimate_request.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="46" selection-start="117" selection-end="117" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="1207">
-              <folding>
-                <element signature="e#324#354#0" expanded="true" />
-                <element signature="e#539#558#0" expanded="true" />
-                <element signature="e#632#651#0" expanded="true" />
-                <element signature="e#659#701#0" expanded="true" />
-                <element signature="e#725#802#0" expanded="true" />
-                <element signature="e#882#912#0" expanded="true" />
-                <element signature="e#1170#1282#0" expanded="true" />
-                <element signature="e#1365#1384#0" expanded="true" />
-                <element signature="e#1392#1434#0" expanded="true" />
-                <element signature="e#1545#1574#0" expanded="true" />
-                <element signature="e#1630#1649#0" expanded="true" />
-                <element signature="e#1657#1699#0" expanded="true" />
-                <element signature="e#1775#1804#0" expanded="true" />
-                <element signature="e#1860#1879#0" expanded="true" />
-                <element signature="e#1887#1929#0" expanded="true" />
-                <element signature="e#2005#2034#0" expanded="true" />
-                <element signature="e#2090#2109#0" expanded="true" />
-                <element signature="e#2117#2159#0" expanded="true" />
-                <element signature="e#2255#2284#0" expanded="true" />
-                <element signature="e#2340#2359#0" expanded="true" />
-                <element signature="e#2367#2409#0" expanded="true" />
-                <element signature="e#2495#2524#0" expanded="true" />
-                <element signature="e#2580#2599#0" expanded="true" />
-                <element signature="e#2607#2649#0" expanded="true" />
-                <element signature="e#2717#2746#0" expanded="true" />
-                <element signature="e#2802#2821#0" expanded="true" />
-                <element signature="e#2829#2871#0" expanded="true" />
-                <element signature="e#2903#2980#0" expanded="true" />
-                <element signature="e#3060#3090#0" expanded="true" />
-                <element signature="e#3376#3488#0" expanded="true" />
-                <element signature="e#3571#3590#0" expanded="true" />
-                <element signature="e#3598#3640#0" expanded="true" />
-                <element signature="e#3753#3782#0" expanded="true" />
-                <element signature="e#3838#3857#0" expanded="true" />
-                <element signature="e#3865#3907#0" expanded="true" />
-                <element signature="e#3944#4021#0" expanded="true" />
-                <element signature="e#4101#4131#0" expanded="true" />
-                <element signature="e#4561#4673#0" expanded="true" />
-                <element signature="e#4756#4775#0" expanded="true" />
-                <element signature="e#4783#4825#0" expanded="true" />
-                <element signature="e#4911#4940#0" expanded="true" />
-                <element signature="e#4996#5015#0" expanded="true" />
-                <element signature="e#5023#5065#0" expanded="true" />
-                <element signature="e#5159#5188#0" expanded="true" />
-                <element signature="e#5244#5263#0" expanded="true" />
-                <element signature="e#5271#5313#0" expanded="true" />
-                <element signature="e#5450#5503#0" expanded="true" />
-                <element signature="e#5528#5547#0" expanded="true" />
-                <element signature="e#5802#5840#0" expanded="true" />
-                <element signature="e#5900#5919#0" expanded="true" />
-                <element signature="e#5987#6006#0" expanded="true" />
-                <element signature="e#6223#6242#0" expanded="true" />
-                <element signature="e#6284#6310#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/couch/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="155" column="0" selection-start="6692" selection-end="6692" vertical-scroll-proportion="-5.25" vertical-offset="2362" max-vertical-offset="3094">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="exterior_signs.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exterior_signs.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="46" selection-start="340" selection-end="340" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="867">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FindManager">
-    <FindUsagesManager>
-      <setting name="OPEN_NEW_TAB" value="false" />
-    </FindUsagesManager>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="changedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/estimate-request.php" />
-        <option value="$PROJECT_DIR$/couch/config.php" />
-        <option value="$PROJECT_DIR$/contact_us.php" />
-        <option value="$PROJECT_DIR$/contact.php" />
-      </list>
-    </option>
-  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
-    <option name="y" value="-8" />
+    <option name="x" value="-19" />
+    <option name="y" value="550" />
     <option name="width" value="1554" />
     <option name="height" value="916" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>PHP</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>PhpCSValidationInspection</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -211,6 +146,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -231,59 +167,34 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="preferences.sourceCode.HTML" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="true" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\vital" />
-    </key>
-  </component>
   <component name="RunManager">
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6cafe1c4-97d6-4b2a-865d-827b4ebd8c98" name="Default" comment="" />
-      <created>1390864708041</created>
-      <updated>1390864708041</updated>
+      <changelist id="c9746537-7307-4381-84f8-9f1083f7f578" name="Default" comment="" />
+      <created>1391138602691</created>
+      <updated>1391138602691</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1554" height="916" extended-state="7" />
-    <editor active="true" />
+    <frame x="-19" y="550" width="1554" height="916" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32962963" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496749" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496749" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -313,114 +224,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/couch/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="0" selection-start="6692" selection-end="6692" vertical-scroll-proportion="-5.25" vertical-offset="2362" max-vertical-offset="3094">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exterior_signs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="46" selection-start="340" selection-end="340" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="867">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estimate_request.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="46" selection-start="117" selection-end="117" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="1207">
-          <folding>
-            <element signature="e#324#354#0" expanded="true" />
-            <element signature="e#539#558#0" expanded="true" />
-            <element signature="e#632#651#0" expanded="true" />
-            <element signature="e#659#701#0" expanded="true" />
-            <element signature="e#725#802#0" expanded="true" />
-            <element signature="e#882#912#0" expanded="true" />
-            <element signature="e#1170#1282#0" expanded="true" />
-            <element signature="e#1365#1384#0" expanded="true" />
-            <element signature="e#1392#1434#0" expanded="true" />
-            <element signature="e#1545#1574#0" expanded="true" />
-            <element signature="e#1630#1649#0" expanded="true" />
-            <element signature="e#1657#1699#0" expanded="true" />
-            <element signature="e#1775#1804#0" expanded="true" />
-            <element signature="e#1860#1879#0" expanded="true" />
-            <element signature="e#1887#1929#0" expanded="true" />
-            <element signature="e#2005#2034#0" expanded="true" />
-            <element signature="e#2090#2109#0" expanded="true" />
-            <element signature="e#2117#2159#0" expanded="true" />
-            <element signature="e#2255#2284#0" expanded="true" />
-            <element signature="e#2340#2359#0" expanded="true" />
-            <element signature="e#2367#2409#0" expanded="true" />
-            <element signature="e#2495#2524#0" expanded="true" />
-            <element signature="e#2580#2599#0" expanded="true" />
-            <element signature="e#2607#2649#0" expanded="true" />
-            <element signature="e#2717#2746#0" expanded="true" />
-            <element signature="e#2802#2821#0" expanded="true" />
-            <element signature="e#2829#2871#0" expanded="true" />
-            <element signature="e#2903#2980#0" expanded="true" />
-            <element signature="e#3060#3090#0" expanded="true" />
-            <element signature="e#3376#3488#0" expanded="true" />
-            <element signature="e#3571#3590#0" expanded="true" />
-            <element signature="e#3598#3640#0" expanded="true" />
-            <element signature="e#3753#3782#0" expanded="true" />
-            <element signature="e#3838#3857#0" expanded="true" />
-            <element signature="e#3865#3907#0" expanded="true" />
-            <element signature="e#3944#4021#0" expanded="true" />
-            <element signature="e#4101#4131#0" expanded="true" />
-            <element signature="e#4561#4673#0" expanded="true" />
-            <element signature="e#4756#4775#0" expanded="true" />
-            <element signature="e#4783#4825#0" expanded="true" />
-            <element signature="e#4911#4940#0" expanded="true" />
-            <element signature="e#4996#5015#0" expanded="true" />
-            <element signature="e#5023#5065#0" expanded="true" />
-            <element signature="e#5159#5188#0" expanded="true" />
-            <element signature="e#5244#5263#0" expanded="true" />
-            <element signature="e#5271#5313#0" expanded="true" />
-            <element signature="e#5450#5503#0" expanded="true" />
-            <element signature="e#5528#5547#0" expanded="true" />
-            <element signature="e#5802#5840#0" expanded="true" />
-            <element signature="e#5900#5919#0" expanded="true" />
-            <element signature="e#5987#6006#0" expanded="true" />
-            <element signature="e#6223#6242#0" expanded="true" />
-            <element signature="e#6284#6310#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact_us.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="29" selection-start="1134" selection-end="1134" vertical-scroll-proportion="-5.3076925" vertical-offset="236" max-vertical-offset="1428">
-          <folding>
-            <element signature="e#339#366#0" expanded="true" />
-            <element signature="e#373#413#0" expanded="true" />
-            <element signature="e#447#471#0" expanded="true" />
-            <element signature="e#544#568#0" expanded="true" />
-            <element signature="e#639#663#0" expanded="true" />
-            <element signature="e#1492#1513#0" expanded="true" />
-            <element signature="e#1899#1920#0" expanded="true" />
-            <element signature="e#2306#2327#0" expanded="true" />
-            <element signature="e#2743#2764#0" expanded="true" />
-            <element signature="e#2957#2978#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="24" selection-start="985" selection-end="985" vertical-scroll-proportion="0.5641593" vertical-offset="0" max-vertical-offset="3434">
-          <folding>
-            <marker date="1390868656885" expanded="true" signature="1186:1378" placeholder="..." />
-            <marker date="1390868656885" expanded="true" signature="1191:1204" placeholder="/*...*/" />
-            <marker date="1390868656885" expanded="true" signature="1245:1290" placeholder="/*...*/" />
-            <marker date="1390868656885" expanded="true" signature="1294:1330" placeholder="/*...*/" />
-            <marker date="1390868656885" expanded="true" signature="1334:1368" placeholder="/*...*/" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
 

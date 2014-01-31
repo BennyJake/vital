@@ -71,7 +71,7 @@ $title = "Contact Us"; ?>
                 </div>
             </li>
         </ul>
-    </cms:form><!-- END Contact Form -->
+    </cms:form> <!-- END Contact Form -->
 </div>
 
 <?php require_once('inc/footer.php'); ?>

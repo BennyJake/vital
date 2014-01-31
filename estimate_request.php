@@ -1,4 +1,13 @@
-<?php require_once( 'couch/cms.php' );
+<?php
+
+require 'vendor/autoload.php';
+
+use \Dropbox as dbx;
+
+$appInfo = dbx\AppInfo::loadFromJsonFile("data/dropbox.json");
+
+
+require_once( 'couch/cms.php' );
 
 $title = "Exterior Signs"; ?>
 
@@ -13,7 +22,7 @@ Estimate Request Form		</h2>
 
 
 <p>Please complete the form below...</p>
-
+<p><?php echo "HELLO?" ?></p>
 </div>
 
 
