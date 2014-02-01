@@ -17,6 +17,8 @@
     <script type="text/javascript" src="js/jquery-1.6.min.js"></script>
     <script type="text/javascript" src="js/jquery.corner.js"></script>
     <script type="text/javascript" src="js/DropDownMenuX_Packed.js"></script>
+    <script type="text/javascript" src="js/template.js"></script>
+
     <style type="text/css">
         <!--
         #swmenu table,
@@ -158,8 +160,8 @@
     <!-- end - swMenuFree javascript and CSS links -->
 
     <link rel="stylesheet" href="css/template.css" type="text/css">
-    <script type="text/javascript" src="js/template.js"></script>
-    <style type="text/css"></style></head>
+    <link rel="stylesheet" href="css/neon.css" type="text/css">
+</head>
 
 <body>
 
