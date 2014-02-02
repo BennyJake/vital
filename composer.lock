@@ -3,45 +3,60 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "3a57191ea1383cda484c2ae477930258",
+    "hash": "70986abab915d33115198c3547387b3d",
     "packages": [
         {
-            "name": "dropbox/dropbox-sdk",
-            "version": "v1.1.2",
+            "name": "phpmailer/phpmailer",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/dropbox/dropbox-sdk-php.git",
-                "reference": "c672f2153ee8ab8dec68d950c81a63d951b3c61f"
+                "url": "https://github.com/PHPMailer/PHPMailer.git",
+                "reference": "cc350282cb7b57e90a5314cd14246fc685e2e001"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dropbox/dropbox-sdk-php/zipball/c672f2153ee8ab8dec68d950c81a63d951b3c61f",
-                "reference": "c672f2153ee8ab8dec68d950c81a63d951b3c61f",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/cc350282cb7b57e90a5314cd14246fc685e2e001",
+                "reference": "cc350282cb7b57e90a5314cd14246fc685e2e001",
                 "shasum": ""
             },
             "require": {
-                "ext-curl": "*",
-                "php": ">= 5.3"
+                "php": ">=5.0.0"
             },
             "require-dev": {
-                "apigen/apigen": "2.8.1",
-                "phpunit/phpunit": "3.7.*"
+                "phpdocumentor/phpdocumentor": "*",
+                "phpunit/phpunit": "*"
             },
             "type": "library",
             "autoload": {
-                "psr-0": {
-                    "Dropbox": "lib/"
-                }
+                "classmap": [
+                    "class.phpmailer.php",
+                    "class.pop3.php",
+                    "class.smtp.php"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "MIT"
+                "LGPL-2.1"
             ],
-            "description": "Dropbox SDK for PHP",
-            "keywords": [
-                "dropbox"
+            "authors": [
+                {
+                    "name": "Jim Jagielski",
+                    "email": "jimjag@gmail.com"
+                },
+                {
+                    "name": "Marcus Bointon",
+                    "email": "phpmailer@synchromedia.co.uk"
+                },
+                {
+                    "name": "Andy Prevost",
+                    "email": "codeworxtech@users.sourceforge.net"
+                },
+                {
+                    "name": "Brent R. Matzelle"
+                }
             ],
-            "time": "2013-12-11 06:37:50"
+            "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
+            "time": "2014-01-30 17:13:08"
         }
     ],
     "packages-dev": [
@@ -51,9 +66,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "phpmailer/phpmailer": 20
+    },
     "platform": [
 
     ],

@@ -10,6 +10,6 @@
         }
     ],
     "require": {
-        "dropbox/dropbox-sdk": "v1.1.2"
+        "phpmailer/phpmailer": "dev-master"
     }
 }
