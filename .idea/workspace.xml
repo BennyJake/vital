@@ -2,86 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9746537-7307-4381-84f8-9f1083f7f578" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/process_form.php" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\ChangeLog.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\License.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\ReadMe.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\composer.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\composer.lock" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\examples\account-info.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\examples\authorize.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\examples\create-shareable-link.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\examples\delta.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\examples\direct-link.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\examples\download-file.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\examples\get-metadata.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\examples\helper.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\examples\link.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\examples\test-ssl.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\examples\upgrade-oauth1-token.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\examples\upload-file.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\examples\web-file-browser.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\fix-style" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\AppInfo.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\AppInfoLoadException.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\ArrayEntryStore.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\AuthBase.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\AuthInfo.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\AuthInfoLoadException.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\Checker.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\Client.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\Curl.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\CurlStreamRelay.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\DeserializeException.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\DropboxMetadataHeaderCatcher.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\Exception.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\Exception\BadRequest.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\Exception\BadResponse.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\Exception\BadResponseCode.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\Exception\InvalidAccessToken.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\Exception\NetworkIO.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\Exception\ProtocolError.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\Exception\RetryLater.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\Exception\ServerError.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\Host.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\HttpResponse.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\OAuth1AccessToken.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\OAuth1Upgrader.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\Path.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\RequestUtil.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\SSLTester.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\Security.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\StreamReadException.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\ValueStore.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\WebAuth.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\WebAuthBase.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\WebAuthException\BadRequest.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\WebAuthException\BadState.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\WebAuthException\Csrf.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\WebAuthException\NotApproved.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\WebAuthException\Provider.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\WebAuthNoRedirect.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\WriteMode.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\autoload.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\certs\trusted-certs.crt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\lib\Dropbox\strict.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\support\generate-api-docs" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\test\ClientTest.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\test\ConfigLoadTest.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\test\ValidationTest.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vital\vendor\dropbox\dropbox-sdk\test\upload.jpg" afterPath="" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\vital\DropboxUploader.php" afterPath="$PROJECT_DIR$/php/class/DropboxUploader.php" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\vital\dropbox.php" afterPath="$PROJECT_DIR$/php/dropbox.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/estimate_request.php" afterPath="$PROJECT_DIR$/estimate_request.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/header.php" afterPath="$PROJECT_DIR$/inc/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/process_form.php" afterPath="$PROJECT_DIR$/php/process_form.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vital.iws" />
@@ -108,8 +31,10 @@
       <file leaf-file-name="dropbox.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/dropbox.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="62" selection-end="62" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="714">
-              <folding />
+            <state line="8" column="20" selection-start="206" selection-end="206" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="714">
+              <folding>
+                <marker date="1391288101711" expanded="true" signature="19:1278" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -117,35 +42,71 @@
       <file leaf-file-name="estimate_request.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/estimate_request.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="47" selection-end="79" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="1224">
+            <state line="47" column="25" selection-start="5366" selection-end="5366" vertical-scroll-proportion="-1.8269231" vertical-offset="704" max-vertical-offset="1207">
               <folding>
-                <element signature="e#5272#5314#0" expanded="true" />
-                <element signature="e#5901#5920#0" expanded="true" />
-                <element signature="e#5988#6007#0" expanded="true" />
-                <element signature="e#6224#6243#0" expanded="true" />
-                <element signature="e#6252#6272#0" expanded="true" />
-                <element signature="e#6320#6339#0" expanded="true" />
+                <element signature="e#540#559#0" expanded="true" />
+                <element signature="e#660#702#0" expanded="true" />
+                <element signature="e#726#803#0" expanded="true" />
+                <element signature="e#883#913#0" expanded="true" />
+                <element signature="e#1171#1283#0" expanded="true" />
+                <element signature="e#1546#1575#0" expanded="true" />
+                <element signature="e#1635#1677#0" expanded="true" />
+                <element signature="e#1845#1887#0" expanded="true" />
+                <element signature="e#2055#2097#0" expanded="true" />
+                <element signature="e#2298#2340#0" expanded="true" />
+                <element signature="e#2523#2565#0" expanded="true" />
+                <element signature="e#2633#2662#0" expanded="true" />
+                <element signature="e#2795#2872#0" expanded="true" />
+                <element signature="e#2943#2973#0" expanded="true" />
+                <element signature="e#3259#3371#0" expanded="true" />
+                <element signature="e#3481#3523#0" expanded="true" />
+                <element signature="e#3636#3665#0" expanded="true" />
+                <element signature="e#3827#3904#0" expanded="true" />
+                <element signature="e#3962#3992#0" expanded="true" />
+                <element signature="e#4422#4534#0" expanded="true" />
+                <element signature="e#4772#4801#0" expanded="true" />
+                <element signature="e#4869#4911#0" expanded="true" />
+                <element signature="e#5005#5034#0" expanded="true" />
+                <element signature="e#5098#5140#0" expanded="true" />
+                <element signature="e#5268#5321#0" expanded="true" />
+                <element signature="e#5346#5365#0" expanded="true" />
+                <element signature="e#5620#5658#0" expanded="true" />
+                <element signature="e#5718#5737#0" expanded="true" />
+                <element signature="e#5810#5829#0" expanded="true" />
+                <element signature="e#5916#5938#0" expanded="true" />
+                <element signature="e#5988#6062#0" expanded="true" />
+                <element signature="e#6223#6366#0" expanded="true" />
+                <element signature="e#6613#6632#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="process_form.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="neon.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/neon.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="18" selection-start="453" selection-end="453" vertical-scroll-proportion="0.6576402" vertical-offset="0" max-vertical-offset="5661">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="0" selection-start="1129" selection-end="1129" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="5678">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="process_form.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/process_form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="91" selection-start="354" selection-end="354" vertical-scroll-proportion="0.3767821" vertical-offset="70" max-vertical-offset="646">
+            <state line="41" column="31" selection-start="1446" selection-end="1446" vertical-scroll-proportion="-17.653847" vertical-offset="238" max-vertical-offset="1768">
               <folding>
                 <element signature="e#6#85#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DropboxUploader.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/class/DropboxUploader.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="124" column="28" selection-start="4812" selection-end="4812" vertical-scroll-proportion="-40.53846" vertical-offset="0" max-vertical-offset="2550">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -165,10 +126,12 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/dropbox.php" />
-        <option value="$PROJECT_DIR$/php/dropbox.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/estimate_request.php" />
+        <option value="$PROJECT_DIR$/php/dropbox.php" />
         <option value="$PROJECT_DIR$/php/process_form.php" />
+        <option value="$PROJECT_DIR$/inc/header.php" />
+        <option value="$PROJECT_DIR$/estimate_request.php" />
+        <option value="$PROJECT_DIR$/css/neon.css" />
       </list>
     </option>
   </component>
@@ -234,7 +197,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="php" />
+              <option name="myItemId" value="inc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vital" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vital" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -278,7 +255,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1554" height="916" extended-state="7" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32962963" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -287,7 +264,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496749" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496749" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -342,38 +319,116 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/class/DropboxUploader.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="28" selection-start="4812" selection-end="4812" vertical-scroll-proportion="-40.53846" vertical-offset="0" max-vertical-offset="2550">
+        <state line="3" column="3" selection-start="33" selection-end="33" vertical-scroll-proportion="-0.31637168" vertical-offset="194" max-vertical-offset="2550">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/dropbox.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="62" selection-end="62" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="714">
+        <state line="8" column="20" selection-start="206" selection-end="206" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="714">
+          <folding>
+            <marker date="1391288101711" expanded="true" signature="19:1278" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_psr4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="517">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_namespaces.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="517">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_classmap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="517">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/installed.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="42" selection-start="403" selection-end="403" vertical-scroll-proportion="0.41547862" vertical-offset="0" max-vertical-offset="1071">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="517">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/process_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="31" selection-start="1446" selection-end="1446" vertical-scroll-proportion="-17.653847" vertical-offset="238" max-vertical-offset="1768">
+          <folding>
+            <element signature="e#6#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="1129" selection-end="1129" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="5678">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/estimate_request.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="47" selection-end="79" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="1224">
+        <state line="47" column="25" selection-start="5366" selection-end="5366" vertical-scroll-proportion="-1.8269231" vertical-offset="704" max-vertical-offset="1207">
           <folding>
-            <element signature="e#5272#5314#0" expanded="true" />
-            <element signature="e#5901#5920#0" expanded="true" />
-            <element signature="e#5988#6007#0" expanded="true" />
-            <element signature="e#6224#6243#0" expanded="true" />
-            <element signature="e#6252#6272#0" expanded="true" />
-            <element signature="e#6320#6339#0" expanded="true" />
+            <element signature="e#540#559#0" expanded="true" />
+            <element signature="e#660#702#0" expanded="true" />
+            <element signature="e#726#803#0" expanded="true" />
+            <element signature="e#883#913#0" expanded="true" />
+            <element signature="e#1171#1283#0" expanded="true" />
+            <element signature="e#1546#1575#0" expanded="true" />
+            <element signature="e#1635#1677#0" expanded="true" />
+            <element signature="e#1845#1887#0" expanded="true" />
+            <element signature="e#2055#2097#0" expanded="true" />
+            <element signature="e#2298#2340#0" expanded="true" />
+            <element signature="e#2523#2565#0" expanded="true" />
+            <element signature="e#2633#2662#0" expanded="true" />
+            <element signature="e#2795#2872#0" expanded="true" />
+            <element signature="e#2943#2973#0" expanded="true" />
+            <element signature="e#3259#3371#0" expanded="true" />
+            <element signature="e#3481#3523#0" expanded="true" />
+            <element signature="e#3636#3665#0" expanded="true" />
+            <element signature="e#3827#3904#0" expanded="true" />
+            <element signature="e#3962#3992#0" expanded="true" />
+            <element signature="e#4422#4534#0" expanded="true" />
+            <element signature="e#4772#4801#0" expanded="true" />
+            <element signature="e#4869#4911#0" expanded="true" />
+            <element signature="e#5005#5034#0" expanded="true" />
+            <element signature="e#5098#5140#0" expanded="true" />
+            <element signature="e#5268#5321#0" expanded="true" />
+            <element signature="e#5346#5365#0" expanded="true" />
+            <element signature="e#5620#5658#0" expanded="true" />
+            <element signature="e#5718#5737#0" expanded="true" />
+            <element signature="e#5810#5829#0" expanded="true" />
+            <element signature="e#5916#5938#0" expanded="true" />
+            <element signature="e#5988#6062#0" expanded="true" />
+            <element signature="e#6223#6366#0" expanded="true" />
+            <element signature="e#6613#6632#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/process_form.php">
+    <entry file="file://$PROJECT_DIR$/css/neon.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="91" selection-start="354" selection-end="354" vertical-scroll-proportion="0.3767821" vertical-offset="70" max-vertical-offset="646">
-          <folding>
-            <element signature="e#6#85#0" expanded="true" />
-          </folding>
+        <state line="20" column="18" selection-start="453" selection-end="453" vertical-scroll-proportion="0.6576402" vertical-offset="0" max-vertical-offset="5661">
+          <folding />
         </state>
       </provider>
     </entry>

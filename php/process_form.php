@@ -8,8 +8,26 @@
 
 if ($_POST) {
 
+
     require_once( 'class/DropboxUploader.php' );
     require_once( 'vendor/autoload.php' );
+
+    try {
+        // Rename uploaded file to reflect original name
+        if ($_FILES['file']['error'] !== UPLOAD_ERR_OK)
+            throw new Exception('File was not successfully uploaded from your computer.');
+
+        if ($_FILES['file']['name'] === "")
+            throw new Exception('File name not supplied by the browser.');
+
+        $tmpFile = 'temp/'.str_replace("/\0", '_', $_FILES['file']['name']);
+        if (!move_uploaded_file($_FILES['file']['tmp_name'], $tmpFile))
+            throw new Exception('Cannot rename uploaded file!');
+    } catch(Exception $e) {
+        //echo '<span style="color: red;font-weight:bold;margin-left:393px;">Error: ' . htmlspecialchars($e->getMessage()) . '</span>';
+    }
+
+    //PHPMAILER
 
     $body_html = '';
     $body_alt  = '';
@@ -22,6 +40,31 @@ if ($_POST) {
             $body_alt  .= $body."\n\n";
         }
     }
+
+    $mail->isSMTP();                                      // Set mailer to use SMTP
+    $mail->Host = 'smtp.vitalsigns.us.com';  // Specify main and backup server
+    $mail->SMTPAuth = true;                               // Enable SMTP authentication
+    //$mail->Username = 'maggie';
+    $mail->Username = 'noreply@vitalsigns.us.com';           // SMTP username
+    //$mail->Username = 'server@vitalsigns.us.com';           // SMTP username
+    $mail->Password = 'Vital216!';                           // SMTP password
+    $mail->SMTPSecure = 'tls';                            // Enable encryption, 'ssl' also accepted
+
+
+    $alt_body = '';
+    $html_body = '';
+
+    foreach($_POST as $key => $val){
+        echo substr($key,6)."<br/>";
+        if(substr($key,0,6) == 'vital_'){
+
+            $key = ucwords(str_replace('_',' ',substr($key,6)));
+
+            $alt_body .= $key . ': '.$val."\n\n";
+            $html_body .= $key . ': '.$val."<br/><br/>";
+        }
+    }
+
 
     if(strlen($body_html) > 0 && strlen($body_alt) > 0){
 
