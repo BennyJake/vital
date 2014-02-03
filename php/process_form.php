@@ -60,7 +60,7 @@ if ($_POST) {
 
     //$mail->isMail();
 
-    $mail->From = 'server@vital.us.com';
+    $mail->From = 'noreply@vital.us.com';
     $mail->FromName = 'Website Estimate Request';
     $mail->addAddress('ben.chrisman.87@gmail.com', 'Ben Chrisman');  // Add a recipient
     //$mail->addAddress('ellen@example.com');               // Name is optional

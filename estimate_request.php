@@ -45,18 +45,19 @@ $title = "Exterior Signs"; ?>
 <div style="clear:both;"><label style="float:left;width:230px !important;">Project Name</label><input class="foxtext" type="text" value="" title="Project Name" style="width:85% !important;" name="vital_proejct_name" /></div>
 <div style="clear:both;"><label style="float:left;width:230px !important;">Project Due Date</label><input class="foxtext" type="text" value="" title="Project Due Date" style="width:85% !important;" name="vital_due_date" /></div>
 <div style="clear:both;"><label style="float:left;width:230px !important;">Additional Details</label><textarea rows="" cols="" class="foxtext" name="vital_additional_details" title="Additional Details" style="width:85% !important;height:180px !important;" ></textarea></div>
-<div style="clear:both;">
-<input type="checkbox" class="foxcheckbox" value="Yes" name="_08d93fbaecf5d7538979f2ae27ca1a89" id="c_08d93fbaecf5d7538979f2ae27ca1a89" />
-<span id="s_08d93fbaecf5d7538979f2ae27ca1a89" onclick="ChangeCheckboxState('_08d93fbaecf5d7538979f2ae27ca1a89');" style="background-position: left 50%;" >I agree with your terms and conditions</span>
-</div>
-<div style="clear:both;">By submitting this form, you accept our privacy policy.</div>
-
-    <div style="clear:both;"><div id="foxupload_mid_110"><div class="qq-uploader"><div class="qq-upload-drop-area" style="display: none;"><span>Drop files here to upload</span></div><div style="float: left; position: relative; overflow: hidden; direction: ltr;" class="qq-upload-button"><span class="qq-upload-button-caption">You Can Click Here To Upload Your File</span><input type="file" multiple="multiple" name="file" style="position: absolute; right: 0px; top: 0px; font-family: Arial; font-size: 118px; margin: 0px; padding: 0px; cursor: pointer; opacity: 0;"></div><ul class="qq-upload-list"></ul></div></div>
-        <script type="text/javascript" language="javascript">createUploader('foxupload_mid_110', 0, 110);</script><noscript>&lt;input type="file" name="foxstdupload" /&gt;</noscript></div>
-
-<div style="clear:both;">
-    <input type="submit" value="Send my Message" />
-</div>
+    <div style="clear:both;">
+        <input type="checkbox" class="foxcheckbox" value="Yes" name="_08d93fbaecf5d7538979f2ae27ca1a89" id="c_08d93fbaecf5d7538979f2ae27ca1a89" />
+        <span id="s_08d93fbaecf5d7538979f2ae27ca1a89" onclick="ChangeCheckboxState('_08d93fbaecf5d7538979f2ae27ca1a89');" style="background-position: left 50%;" >I agree with your terms and conditions</span>
+    </div>
+    <div style="clear:both;">By submitting this form, you accept our privacy policy.</div>
+    <div style="clear:both;"><div id="foxupload_mid_110" ></div>
+        <script language="javascript" type="text/javascript">createUploader('foxupload_mid_110', 0, 110);</script><noscript><input type="file" name="foxstdupload" /></noscript></div>
+    <div style="clear:both;">
+        <button class="foxbutton" type="submit" style="margin-right:32px;" name="mid_110">
+<span >
+Submit Form</span>
+        </button>
+    </div>
 </form>
 
 </div>
