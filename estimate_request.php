@@ -53,8 +53,7 @@ $title = "Exterior Signs"; ?>
 </div>
 <div style="clear:both;">By submitting this form, you accept our privacy policy.</div>
 
-    <div style="clear:both;"><div id="foxupload_mid_110"><div class="qq-uploader"><div class="qq-upload-drop-area" style="display: none;"><span>Drop files here to upload</span></div><div style="float: left; position: relative; overflow: hidden; direction: ltr;" class="qq-upload-button"><span class="qq-upload-button-caption">You Can Click Here To Upload Your File</span><input type="file" multiple="multiple" name="file" style="position: absolute; right: 0px; top: 0px; font-family: Arial; font-size: 118px; margin: 0px; padding: 0px; cursor: pointer; opacity: 0;"></div><ul class="qq-upload-list"></ul></div></div>
-        <script type="text/javascript" language="javascript">createUploader('foxupload_mid_110', 0, 110);</script><noscript>&lt;input type="file" name="foxstdupload" /&gt;</noscript></div>
+<?php require_once ('inc/fileuploader.php'); ?>
 
 <div style="clear:both;">
     <input type="submit" value="Send my Message" />
