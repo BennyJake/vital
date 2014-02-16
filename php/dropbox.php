@@ -11,7 +11,7 @@ if ($_POST) {
         if ($_FILES['file']['name'] === "")
             throw new Exception('File name not supplied by the browser.');
 
-        $tmpFile = 'vital_signs_upload/'.str_replace("/\0", '_', $_FILES['file']['name']);
+        $tmpFile = 'uploads/'.str_replace("/\0", '_', $_FILES['file']['name']);
         if (!move_uploaded_file($_FILES['file']['tmp_name'], $tmpFile))
             throw new Exception('Cannot rename uploaded file!');
 

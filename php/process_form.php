@@ -8,6 +8,7 @@
 
 if ($_POST) {
 
+    require_once( 'class/Dzip.php' );
     require_once( 'class/DropboxUploader.php' );
     require_once( 'vendor/autoload.php' );
 
@@ -33,21 +34,25 @@ if ($_POST) {
     if(strlen($body_html) > 0 && strlen($body_alt) > 0){
 
         if ($_FILES){
-            try {
+
+            $zip_loc = "uploads/".date('Y-m-d_h-i-a')."_".$form['vital_name'].".zip";
+
+            $zip = new dZip($zip_loc);
+
+            for($i=0;$i<count($_FILES["file"]["name"]);$i++)
+            {
                 // Rename uploaded file to reflect original name
-                if ($_FILES['file']['error'] !== UPLOAD_ERR_OK)
-                    throw new Exception('File was not successfully uploaded from your computer.');
+                //if ($_FILES['file']['error'][$i] !== UPLOAD_ERR_OK)
+                //    throw new Exception($_FILES['file']['error'][$i]);
 
-                if ($_FILES['file']['name'] === "")
-                    throw new Exception('File name not supplied by the browser.');
-
-                $tmpFile = 'vital_signs_upload/'.str_replace("/\0", '_', $_FILES['file']['name']);
-                if (!move_uploaded_file($_FILES['file']['tmp_name'], $tmpFile))
-                    throw new Exception('Cannot rename uploaded file!');
-            } catch(Exception $e) {
-                //echo '<span style="color: red;font-weight:bold;margin-left:393px;">Error: ' . htmlspecialchars($e->getMessage()) . '</span>';
-            }
+                if ($_FILES['file']['name'][$i] !== "")
+                $zip->addFile($_FILES["file"]["tmp_name"][$i],$_FILES["file"]["name"][$i]);            }
         }
+
+        $zip->save();
+
+        $body_html .= "<a href='".WEBSITE_ROOT.$zip_loc."'>Link to uploaded files</a>";
+        $body_alt .= "Copy and paste the URL into a web browser to download client files: ".WEBSITE_ROOT.$zip_loc;
 
         $mail = new PHPMailer;
 
@@ -60,9 +65,6 @@ if ($_POST) {
         $mail->SMTPSecure = 'tls';                            // Enable encryption, 'ssl' also accepted
 
         $mail->WordWrap = 50;                                 // Set word wrap to 50 characters
-        if(isset($tmpFile)){
-            $mail->addAttachment($tmpFile);                   // Add attachments
-        }
         $mail->isHTML(true);                                  // Set email format to HTML
 
         $mail->Subject = 'Vital Signs Estimate Request';
@@ -87,7 +89,7 @@ if ($_POST) {
         try {
             // Enter your Dropbox account credentials here
             $uploader = new DropboxUploader('ben.chrisman.87@gmail.com', 'quietracket22');
-            $uploader->upload($tmpFile, 'Vital Signs Upload');
+            $uploader->upload($zip_loc, 'Vital Signs Upload');
 
         } catch(Exception $e) {
             //echo '<span style="color: red;font-weight:bold;margin-left:393px;">Error: ' . htmlspecialchars($e->getMessage()) . '</span>';
