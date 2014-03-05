@@ -1,14 +1,18 @@
 <?php
 
-require_once( 'php/process_form.php');
-
 require_once( 'couch/cms.php' );
 
 $title = "Exterior Signs"; ?>
 
 <cms:template title="<?php echo $title; ?>" />
 
-<?php require_once('inc/header.php'); ?>
+<?php
+
+require_once('inc/header.php');
+
+require_once( 'php/process_form.php');
+
+?>
 
 <div class="item-page">
 
@@ -24,7 +28,7 @@ $title = "Exterior Signs"; ?>
 <div class="foxcontainer" style="width:100% !important;">
 
 <h2>Contact us</h2>
-
+<?php echo WEBSITE_ROOT ?>
 
 <form enctype="multipart/form-data" class="foxform" action="" method="post">
 	<!-- mod_foxcontact 2.0.17 GNU/GPLv3 -->

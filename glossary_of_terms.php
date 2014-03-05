@@ -14,7 +14,7 @@ $title = "Glossary of Terms"; ?>
 
 <cms:editable name='Content' type='richtext'>
 <p>We take great pride in making our clients feel confident about their jobs during the production process. To help you gain a better understanding of what</p>
-<p><span class="content"><a href="/resources/glossary.html#item2999741">3</a> <a href="/resources/glossary.html#item2999742">A</a> <a href="/resources/glossary.html#item2999782">B</a> <a href="/resources/glossary.html#item2999826">C</a> <a href="/resources/glossary.html#item2999875">D</a> <a href="/resources/glossary.html#item2999900">E</a> <a href="/resources/glossary.html#item2999922">F</a> <a href="/resources/glossary.html#item2999955">G</a> <a href="/resources/glossary.html#item2999972">H</a> <a href="/resources/glossary.html#item2999986">I</a> <a href="/resources/glossary.html#item3000004">J</a> <a href="/resources/glossary.html#item3000007">K</a> <a href="/resources/glossary.html#item3000012">L</a> <a href="/resources/glossary.html#item3000043">M</a> <a href="/resources/glossary.html#item3000069">N</a> <a href="/resources/glossary.html#item3000081">O</a> <a href="/resources/glossary.html#item3000089">P</a> <a href="/resources/glossary.html#item3000141">Q</a> <a href="/resources/glossary.html#item3000143">R</a> <a href="/resources/glossary.html#item3000167">S</a> <a href="/resources/glossary.html#item3000233">T</a> <a href="/resources/glossary.html#item3000276">U</a> <a href="/resources/glossary.html#item3000280">V</a> <a href="/resources/glossary.html#item3000292">W</a> <a href="/resources/glossary.html#item3000314">X</a> <a href="/resources/glossary.html#item3000315">Y</a> <a href="/resources/glossary.html#item3000316">Z</a></span></p>
+<p><span class="content"><a href="#item2999741">3</a> <a href="#item2999742">A</a> <a href="#item2999782">B</a> <a href="#item2999826">C</a> <a href="#item2999875">D</a> <a href="#item2999900">E</a> <a href="#item2999922">F</a> <a href="#item2999955">G</a> <a href="#item2999972">H</a> <a href="#item2999986">I</a> <a href="#item3000004">J</a> <a href="#item3000007">K</a> <a href="#item3000012">L</a> <a href="#item3000043">M</a> <a href="#item3000069">N</a> <a href="#item3000081">O</a> <a href="#item3000089">P</a> <a href="#item3000141">Q</a> <a href="#item3000143">R</a> <a href="#item3000167">S</a> <a href="#item3000233">T</a> <a href="#item3000276">U</a> <a href="#item3000280">V</a> <a href="#item3000292">W</a> <a href="#item3000314">X</a> <a href="#item3000315">Y</a> <a href="#item3000316">Z</a></span></p>
 <ul class="content_collection_items spacing_single list_style_disc">
 <li id="item2999741">
 <div class="collection_item_label">3D (three-dimensional) engraving</div>
@@ -22,6 +22,9 @@ $title = "Glossary of Terms"; ?>
 <p>A routing procedure where the tool bit can be moved independently along the up-and-down z-axis while still traveling an x/y-axis tool path. 3D engraving can create relieves and hand-chiseled looks while removing material from a substrate.</p>
 </div>
 </li>
+</ul>
+<h2 id="3">3</h2>
+<ul>
 <li class="Alt" id="item2999742">
 <div class="collection_item_label">abatement</div>
 <div class="collection_item_description">

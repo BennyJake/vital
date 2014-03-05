@@ -6,4 +6,4 @@
  * Time: 11:04 AM
  */
 
-DEFINE(WEBSITE_ROOT,"vital.bennyjake.com/");
+DEFINE("WEBSITE_ROOT","vital.bennyjake.com/");
